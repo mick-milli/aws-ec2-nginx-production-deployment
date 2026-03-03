@@ -23,7 +23,7 @@ This project demonstrates provisioning and configuring a cloud-based Linux serve
 
 **Flow:**
 
-User Browser → Internet → AWS EC2 (Ubuntu 22.04) → Nginx → Static HTML Website
+User Browser → HTTP Request → AWS Security Group → AWS EC2 (Ubuntu 22.04) → Nginx → Static HTML Website
 
 ---
 

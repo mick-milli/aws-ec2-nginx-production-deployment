@@ -19,7 +19,9 @@ This project demonstrates provisioning and configuring a cloud-based Linux serve
 
 ## 🏗 Architecture
 
-![Architecture Diagram](architecture.png)
+<p align="center">
+  <img src="architecture.png" width="400" height="1000"/>
+</p>
 
 **Flow:**
 
@@ -68,3 +70,27 @@ sudo apt install nginx -y
 sudo systemctl start nginx
 sudo systemctl enable nginx
 ```
+### 4️⃣ Load Nginx Server 
+
+```bash
+http://YOUR_PUBLIC_IP
+```
+---
+
+### 🔥 Problems Faced
+
+- Permission denied on SSH (fixed with chmod 400)
+- Port 80 not open in security group
+
+### 📸 Screenshots
+### EC2 Instance Running
+![EC2 Running](ec2-running.png)
+
+### SSH Connection
+![SSH Connected](ssh-connected.png)
+
+### Nginx Installed
+![Nginx Installed](nginx-running.png)
+
+### Website Live
+![Website Running](website-running.png)

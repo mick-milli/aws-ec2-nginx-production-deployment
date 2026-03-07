@@ -86,6 +86,9 @@ http://YOUR_PUBLIC_IP
 ### EC2 Instance Running
 ![EC2 Running](ec2-running.png)
 
+### Security Group Configuration
+![Security Group Configuration](security-group.png)
+
 ### SSH Connection
 ![SSH Connected](ssh-connected.png)
 
